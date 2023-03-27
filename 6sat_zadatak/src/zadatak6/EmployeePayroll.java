@@ -2,7 +2,6 @@ package zadatak6;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class EmployeePayroll {
@@ -39,7 +38,7 @@ public class EmployeePayroll {
         payroll.addEmployee(new Employee("Ivo", "Iviæ", 10, 40));
         payroll.addEmployee(new Employee("Ana", "Anic", 25, 35));
         payroll.addEmployee(new Employee("Petar", "Petrovic", 10, 50));
-        payroll.addEmployee(new Employee("Jana", "Janiæ", 30, -20));
+        payroll.addEmployee(new Employee("Jana", "Janiæ", 1, 20));
         payroll.addEmployee(new Employee("Marko", "Markovic", 15, 45));
         
         payroll.displayPayroll();
